@@ -24,3 +24,22 @@ let convertString=String(notString) //to convert it is important to use capital 
 
 let value=null
 //console.log(-value)
+
+//                                         OPERATIONS
+
+// apart from basic operations like +,-,*,**(power),%(returns remainder after division) we gave
+
+
+//increment and decrement
+
+
+// increment adds one to its operand and RETURNS value either before or after increment based on where its placed
+
+let x=2
+y = x++ // the increment operation adds one to  x , x becomes 3 BUT the value assigned to y is 2 hence the assignment happens first post that the increment takes place
+
+let a=5
+b= ++a // here the increment happens first a becomes 6  then that value is assigned to b hence b=6
+
+
+console.table([y,b])
