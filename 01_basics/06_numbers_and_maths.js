@@ -34,3 +34,12 @@ console.log(Math.random());  // returns a pseudo random no. betweeb 0 and 1 ( 0 
 // the random method is often used together with floor method to get whole no.
 
 console.log(Math.floor(Math.random()*6)+1)//multiplying with 6 multiplies the staring and end point of the range increasing the range to [0,6) adding one makes the range [1,6]
+
+const min = x 
+const max= y
+
+function btwValue(){
+  Math.floor(Math.random()*(max-min+1)) + min
+}
+
+// this is a standard formula used to produce random values btw 2 given values. random*max-min makes the range of random method to [0,max-min) say if max=110 and min=90 then range will be [0,20) to make the last value inclusive we add one. Then the floor method makes the output to integers only and finally min is added so the range becomes [0+min , max-min+min]=[min,max]
