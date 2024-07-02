@@ -13,5 +13,11 @@ const arr=[1,2,3,4,5]
 
 // arr.shift(); //Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
-console.log( arr.includes(3)); //determines wheter the array contains an element or not and returns corresponding boolean value
-console.log(arr.indexOf(18));//returns the index of the first occurence of the given value,returns -1 if the value is not present in the array
+// console.log( arr.includes(3)); //determines wheter the array contains an element or not and returns corresponding boolean value
+// console.log(arr.indexOf(18));//returns the index of the first occurence of the given value,returns -1 if the value is not present in the array
+
+const stringArr = arr.join();
+console.log(stringArr); // stringArr is a type string 
+
+
+
