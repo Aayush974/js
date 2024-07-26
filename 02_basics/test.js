@@ -32,4 +32,5 @@ class Rabbit {
 }
 
 let killerRabbit = new Rabbit("killer");
-console.log(Object.getPrototypeOf(killerRabbit))
+console.log(Object.getPrototypeOf(killerRabbit))//when we create an object through constructor function its prototype is set to {}(since as told aboce that Function.prototype has an empty object as its default property) and this {} is ofcouse linked to Object.prtotype
+console.log(killerRabbit.toString())
